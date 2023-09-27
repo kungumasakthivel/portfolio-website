@@ -9,16 +9,15 @@ class Header extends Component {
         <nav>
         <div className='header'>
             
-            <div>
+            <div className='sub1'>
                 <h1>portfolio</h1>
             </div>
             <ul className='sub-header'>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/project">Project</Link></li>
-                <li><Link to="/about">About</Link></li>
-                <li><Link to="/contact">Contant</Link></li>
+                <li className='item'><Link className='link' to="/">Home</Link></li>
+                <li className='item'><Link className='link' to="/project">Project</Link></li>
+                <li className='item'><Link className='link' to="/about">About</Link></li>
+                <li className='item'><Link className='link' to="/contact">Contant</Link></li>
             </ul>
-            
         </div>
         </nav>
         )

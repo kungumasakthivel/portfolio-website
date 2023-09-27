@@ -8,7 +8,7 @@ class Footer extends Component {
             <div className="footer">
                 <div></div>
                 <div>
-                <i class="fa-brands fa-instagram" className="icon"></i>
+                {/* <i class="fa-brands fa-instagram" className="icon"></i> */}
                 </div>
             </div>
         )

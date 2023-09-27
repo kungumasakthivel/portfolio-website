@@ -8,17 +8,17 @@ import Header from "./components/HomePage/Header";
 
 function App() {
   return (
-    <>
+    <div className="display">
      <BrowserRouter>
       <Header />
       <Switch>
-      <Route exact path='/' component={HomePage}/>
+       <Route exact path='/' component={HomePage}/>
        <Route exact path="/about" component={AboutPage}/>
        <Route exact path="/contact" component={ContactPage}/>
        <Route exact path="/project" component={ProjectPage}/>
       </Switch>
      </BrowserRouter>
-    </>
+    </div>
   )  
 };
 
