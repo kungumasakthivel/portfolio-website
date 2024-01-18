@@ -1,34 +1,99 @@
-.header {
-    color: white;
-    border: 1px black solid;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-image: radial-gradient(rgb(29, 28, 28),rgb(21, 20, 20), rgb(16, 14, 14), Black);
+@media screen and (min-width:500px) {
+    .header {
+        color: white;
+        border: 1px black solid;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-image: radial-gradient(rgb(29, 28, 28),rgb(21, 20, 20), rgb(16, 14, 14), Black);
+    }
+
+    .sub1 {
+        padding-left: 3%;
+        color: white;
+        
+    }
+
+    .logo{
+        color: white;
+        text-decoration: none;
+    }
+
+    .sub-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        list-style: none;
+    }
+
+    .item {
+        padding-right: 20%;
+    }
+
+    .link {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .link:hover {
+        color: snow;
+        text-decoration: underline;
+    }
+
+    .modile-header {
+        display: none;
+    }
 }
 
-.sub1 {
-    padding-left: 3%;
+
+
+@media screen and (max-width: 500px) {
+    .header {
+        display: none;
+    }
+
+    .modile-header {
+        color: white;
+        border: 1px black solid;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-image: radial-gradient(rgb(29, 28, 28),rgb(21, 20, 20), rgb(16, 14, 14), Black);
+    }
+
+    .item {
+        text-decoration: none;
+        padding-left: 5%;
+    }
+
+    .project-link {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .project-link:hover {
+        color: snow;
+        text-decoration: underline;
+    }
+    .sub2 {
+        padding-left: 3%;
+    }
+    .sub-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        list-style: none;
+        margin-right: 5%;
+    }
+    .logo{
+        color: white;
+        text-decoration: none;
+    }
 }
 
-.sub-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    list-style: none;
-}
-
-.item {
-    padding-right: 20%;
-}
-
-.link {
-    color: #fff;
-    text-decoration: none;
-}
-
-.link:hover {
-    color: snow;
-    text-decoration: underline;
+.l-style {
+    color: #ff3f3f;
 }

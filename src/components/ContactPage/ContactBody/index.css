@@ -1,9 +1,45 @@
 .container-contact {
     color: #fff;
+    font-size: 24px;
     height: 80vh;
     border: black solid 1px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-image: radial-gradient(rgb(60,60,60),rgb(48,48,48),rgb(36,36,36),rgb(24,24,24),rgb(12,12,12),black);
+}
+.icons-phone {
+    font-size: 20px;
+    padding: 4px;
+}
+
+.icons-email {
+    font-size: 28px;
+    padding: 2px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+}
+
+.label {
+    padding-right: 4px;
+}
+
+@media screen and (max-width: 500px) {
+    .footer-on-contact {
+        height: 10vh;
+        width: 135px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width:500px) {
+    .footer-on-contact {
+        height: 10vh;
+        padding-left: 3%;
+        margin-top: 20px;
+    }
 }

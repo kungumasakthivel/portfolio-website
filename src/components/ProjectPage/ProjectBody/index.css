@@ -3,9 +3,73 @@
     height: 80vh;
     border: black solid 1px;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-
+    flex-wrap: wrap;
     background-image: radial-gradient(rgb(60,60,60),rgb(48,48,48),rgb(36,36,36),rgb(24,24,24),rgb(12,12,12),black);
-
+    overflow-y: auto;
+    
 }
+
+.heading {
+    text-align: center;
+}
+
+.links-project {
+    color: white;
+    text-decoration: none;
+    border: white solid 2px;
+    padding: 10px 15px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.highlight-links {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.project-buttons {
+    display: flex;
+    flex-direction: row;
+    height: inherit;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .project-box {
+        width: 30%;
+        height: 40%;
+        border-radius: 12px;
+        border: white 2px solid;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .project-box {
+        width: 95%;
+        height: 45%;
+        border-radius: 12px;
+        border: white 2px solid;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #363131;
+}
+::-webkit-scrollbar-thumb {
+    background: #928f8f;
+    border-radius: 12px;
+}
+
