@@ -15,7 +15,7 @@ class ProjectBody extends Component {
                         rel="noreferrer"
                         >Code
                         </a>
-                        <a className="links-project" href="#">View</a>
+                        <a className="links-project" href="https://github.com/kungumasakthivel">View</a>
                     </div>
                 </div>
                 <div className="project-box">
@@ -28,7 +28,7 @@ class ProjectBody extends Component {
                         rel="noreferrer"
                         >Code
                         </a>
-                        <a className="links-project" href="">View</a>
+                        <a className="links-project" href="https://github.com/kungumasakthivel">View</a>
                     </div>
                 </div>
                 <div className="project-box">
